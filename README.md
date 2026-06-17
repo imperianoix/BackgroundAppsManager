@@ -28,7 +28,7 @@ Both files must remain in the same folder.
 
 ### Español
 
-Herramienta para habilitar o deshabilitar aplicaciones de Windows que se ejecutan en segundo plano.
+Herramienta para habilitar o deshabilitar aplicaciones de Windows 10 o 11 que se ejecutan en segundo plano.
 
 #### Características
 - Lista las aplicaciones registradas.
