@@ -53,5 +53,7 @@ Ambos archivos deben permanecer en la misma carpeta.
 2. Introduce el número de la aplicación.
 3. Escribe `E` para salir.
 
+Nota
+Esta herramienta fue creada para ofrecer una forma rápida y cómoda de administrar las aplicaciones en segundo plano de Windows, ayudando a optimizar el uso de recursos según las necesidades del usuario.
 ### Author
 David Mateo Rico Galeano
