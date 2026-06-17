@@ -1,26 +1,57 @@
-Background Apps Manager - Gestor de aplicaciones en segundo plano
+# Background Apps Manager - Gestor de aplicaciones en segundo plano
 
-Herramienta para habilitar o deshabilitar aplicaciones de Windows con ejecución en segundo plano mediante las claves de registro ubicadas en:
+### English
 
-HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications
+Tool for enabling or disabling background applications in Windows 10 and 11.
 
-Características
-Lista todas las aplicaciones registradas.
-Muestra el estado actual de cada aplicación (HABILITADA / DESHABILITADA).
-Permite alternar el estado de una aplicación escribiendo únicamente su número.
-No elimina aplicaciones.
-No modifica nombres de claves del registro.
-Utiliza los valores Disabled y DisabledByUser.
-Opción E para salir de la aplicación.
-Requisitos
-Windows 10 o Windows 11.
-PowerShell.
-Permisos de usuario sobre HKCU.
-Ejecución
-Copie los archivos manage_background_apps.ps1 y Apps segundo plano.bat en el escritorio de Windows.
-Ejecute el archivo .bat.
-Seleccione el número de la aplicación que desea habilitar o deshabilitar.
-Presione E para salir.
-Autor
+#### Features
+- Lists registered applications.
+- Displays the current status of each application.
+- Enables or disables applications by entering their number.
+- Does not remove applications.
+- Uses the `Disabled` and `DisabledByUser` values.
+- Press `E` to exit.
+
+#### Files
+
+```text
+BackgroundApps.bat
+BackgroundApps.ps1
+```
+
+Both files must remain in the same folder.
+
+#### Usage
+1. Run `BackgroundApps.bat`.
+2. Enter the application number.
+3. Press `E` to exit.
+
+### Español
+
+Herramienta para habilitar o deshabilitar aplicaciones de Windows que se ejecutan en segundo plano.
+
+#### Características
+- Lista las aplicaciones registradas.
+- Muestra su estado actual.
+- Activa o desactiva aplicaciones escribiendo únicamente su número.
+- No elimina aplicaciones.
+- Utiliza los valores `Disabled` y `DisabledByUser`.
+- Opción `E` para salir.
+
+#### Archivos
+
+```text
+BackgroundApps.bat
+BackgroundApps.ps1
+```
+
+Ambos archivos deben permanecer en la misma carpeta.
+
+#### Uso
+1. Ejecuta `BackgroundApps.bat`.
+2. Introduce el número de la aplicación.
+3. Escribe `E` para salir.
+
+### Author
 
 David Mateo Rico Galeano
